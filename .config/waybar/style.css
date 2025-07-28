@@ -1,7 +1,6 @@
 @import "./rose-pine-moon.css";
 
 * {
-    /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
     font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
     min-height: 0;
@@ -9,7 +8,7 @@
 }
 
 window#waybar {
-    background: rgba(35,33,54,.0); /* transparent yapar */
+    background: rgba(35,33,54,.0); 
     color: @iris;
     font-family:
         SpaceMono Nerd Font,
@@ -24,7 +23,7 @@ window#waybar {
     background: rgba(35,33,54,1);
     margin: 3px 7px;
     padding: 0 5px;
-    border: 2px solid @iris; /* Change this line for the border */
+    border: 2px solid @iris; 
     border-radius: 15px;
 }
 .modules-left {
