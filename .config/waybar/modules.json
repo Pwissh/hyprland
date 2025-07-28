@@ -59,6 +59,7 @@
         "max-length": 40,
         "interval": 1,
         "exec": "$HOME/.config/waybar/mediaplayer.sh 2> /dev/null",
+	"on-click": "playerctl play-pause",
     },
     "custom/notification": {
 	"format": "{}",
