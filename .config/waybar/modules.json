@@ -1,0 +1,70 @@
+{
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        }
+    },
+    "pulseaudio": {
+        "format": "{icon}   %{volume}  {format_source} ",
+        "format-bluetooth": " %{volume}  {format_source}",
+        "format-bluetooth-muted": "󰂲  {format_source}",
+        "format-muted": "  {format_source}",
+        "format-source": " %{volume}",
+        "format-source-muted": " ",
+        "format-icons": {
+            "headphone": "  ",
+            "hands-free": "󰏳  ",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "network": {
+        "format-wifi": "   {essid} ({signalStrength}%)",
+        "format-ethernet": "󰈀  ethernet",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "Disconnected ⚠",
+	"on-click": "hyprctl dispatch exec [float] kitty -- -e nmtui"
+
+    },
+    "cpu": {
+        "interval":1,
+        "format": "  %{usage}",
+        "format-alt": " {icon0} {icon1} {icon2} {icon3}",
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    },
+    "memory": {
+        "format": "  %{}",
+	"tooltip": true,
+	"on-click": "exec kitty -e htop"
+    },   
+    "clock": {
+        "format": "{:%H:%M | %e %B} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d/%m/%Y}"
+    },
+    "custom/spotify": {
+        "format": "|     {}",
+        "max-length": 40,
+        "interval": 1,
+        "exec": "$HOME/.config/waybar/mediaplayer.sh 2> /dev/null",
+    },
+    "custom/notification": {
+	"format": "{}",
+	"interval": 1,
+	"exec": "$HOME/.config/waybar/notification.sh",
+	"on-click": "exec dunstctl history-pop"	
+    }
+   	
+}
