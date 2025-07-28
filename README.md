@@ -10,3 +10,6 @@ My hyprland dotfiles in case I ever need them. Done on Arch Linux because KDE 6.
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e693d4af-2a78-4c19-aacb-9e2307c221d5" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8f8cc1e4-1822-4520-8446-c224f5fb118a" />
 
+---
+
+note: If you end up wanting to take anything from the config and you want things to work properly, you'll most likely need any one of the nerd-fonts.
