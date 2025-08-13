@@ -25,7 +25,7 @@
             "phone": " ",
             "portable": " ",
             "car": " ",
-            "default": [" ", " ", " "]
+            "default": [" ", " ", "  "]
         },
         "on-click": "pavucontrol"
     },
@@ -50,9 +50,9 @@
 	"on-click": "exec kitty -e htop"
     },   
     "clock": {
-        "format": "{:%H:%M | %e %B} ",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d/%m/%Y}"
+        "format": "{:%H:%M | %e %B | %a}",
+        "tooltip-format": "<big>{:%Y %B %a}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d/%m/%Y | %a}"
     },
     "custom/spotify": {
         "format": "|     {}",
