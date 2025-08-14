@@ -1,6 +1,6 @@
 ## hyprland
 
-My hyprland dotfiles in case I ever need them. Done on Arch Linux because KDE 6.4.x is too unstable for my taste. If I stop being a pussy maybe it'll gonna end up inside the Gentoo laptop. Who knows?
+My hyprland dotfiles in case I ever need them. Done on Arch Linux because KDE 6.4.x is too unstable for my taste. If I stop being a pussy maybe it'll end up inside the Gentoo laptop. Who knows?
 
 ---
 
